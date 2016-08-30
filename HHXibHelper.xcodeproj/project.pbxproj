@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492F8A661D7537CD0067211E /* HHXibHelper.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 492F8A651D7537CD0067211E /* HHXibHelper.xcscheme */; };
+		492F8A691D7537CD0067211E /* HHXibHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F8A681D7537CD0067211E /* HHXibHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492F8A611D7537CD0067211E /* HHXibHelper.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHXibHelper.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		492F8A651D7537CD0067211E /* HHXibHelper.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = HHXibHelper.xcscheme; path = HHXibHelper.xcodeproj/xcshareddata/xcschemes/HHXibHelper.xcscheme; sourceTree = SOURCE_ROOT; };
+		492F8A671D7537CD0067211E /* HHXibHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHXibHelper.h; sourceTree = "<group>"; };
+		492F8A681D7537CD0067211E /* HHXibHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHXibHelper.m; sourceTree = "<group>"; };
+		492F8A6A1D7537CD0067211E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		492F8A591D7537CD0067211E = {
+			isa = PBXGroup;
+			children = (
+				492F8A631D7537CD0067211E /* HHXibHelper */,
+				492F8A621D7537CD0067211E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492F8A621D7537CD0067211E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492F8A611D7537CD0067211E /* HHXibHelper.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492F8A631D7537CD0067211E /* HHXibHelper */ = {
+			isa = PBXGroup;
+			children = (
+				492F8A671D7537CD0067211E /* HHXibHelper.h */,
+				492F8A681D7537CD0067211E /* HHXibHelper.m */,
+				492F8A6A1D7537CD0067211E /* Info.plist */,
+				492F8A641D7537CD0067211E /* Supporting Files */,
+			);
+			path = HHXibHelper;
+			sourceTree = "<group>";
+		};
+		492F8A641D7537CD0067211E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				492F8A651D7537CD0067211E /* HHXibHelper.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492F8A601D7537CD0067211E /* HHXibHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492F8A6D1D7537CD0067211E /* Build configuration list for PBXNativeTarget "HHXibHelper" */;
+			buildPhases = (
+				492F8A5E1D7537CD0067211E /* Sources */,
+				492F8A5F1D7537CD0067211E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHXibHelper;
+			productName = HHXibHelper;
+			productReference = 492F8A611D7537CD0067211E /* HHXibHelper.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492F8A5A1D7537CD0067211E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = herui;
+				TargetAttributes = {
+					492F8A601D7537CD0067211E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 492F8A5D1D7537CD0067211E /* Build configuration list for PBXProject "HHXibHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 492F8A591D7537CD0067211E;
+			productRefGroup = 492F8A621D7537CD0067211E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492F8A601D7537CD0067211E /* HHXibHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492F8A5F1D7537CD0067211E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F8A661D7537CD0067211E /* HHXibHelper.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492F8A5E1D7537CD0067211E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F8A691D7537CD0067211E /* HHXibHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		492F8A6B1D7537CD0067211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		492F8A6C1D7537CD0067211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		492F8A6E1D7537CD0067211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = HHXibHelper/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = herui.HHXibHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		492F8A6F1D7537CD0067211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = HHXibHelper/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = herui.HHXibHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492F8A5D1D7537CD0067211E /* Build configuration list for PBXProject "HHXibHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492F8A6B1D7537CD0067211E /* Debug */,
+				492F8A6C1D7537CD0067211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492F8A6D1D7537CD0067211E /* Build configuration list for PBXNativeTarget "HHXibHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492F8A6E1D7537CD0067211E /* Debug */,
+				492F8A6F1D7537CD0067211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492F8A5A1D7537CD0067211E /* Project object */;
+}
