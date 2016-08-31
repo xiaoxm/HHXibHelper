@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		492F8A661D7537CD0067211E /* HHXibHelper.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 492F8A651D7537CD0067211E /* HHXibHelper.xcscheme */; };
 		492F8A691D7537CD0067211E /* HHXibHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F8A681D7537CD0067211E /* HHXibHelper.m */; };
+		4960B48D1D758C99001486ED /* simple_html_dom.php in Resources */ = {isa = PBXBuildFile; fileRef = 4960B48B1D758C99001486ED /* simple_html_dom.php */; };
+		4960B48E1D758C99001486ED /* XibHelper.php in Resources */ = {isa = PBXBuildFile; fileRef = 4960B48C1D758C99001486ED /* XibHelper.php */; };
+		49EA6F231D75879700F8521C /* InputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EA6F211D75879700F8521C /* InputVC.m */; };
+		49EA6F241D75879700F8521C /* InputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EA6F221D75879700F8521C /* InputVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +21,11 @@
 		492F8A671D7537CD0067211E /* HHXibHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHXibHelper.h; sourceTree = "<group>"; };
 		492F8A681D7537CD0067211E /* HHXibHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHXibHelper.m; sourceTree = "<group>"; };
 		492F8A6A1D7537CD0067211E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4960B48B1D758C99001486ED /* simple_html_dom.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = simple_html_dom.php; sourceTree = "<group>"; };
+		4960B48C1D758C99001486ED /* XibHelper.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = XibHelper.php; sourceTree = "<group>"; };
+		49EA6F201D75879700F8521C /* InputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputVC.h; sourceTree = "<group>"; };
+		49EA6F211D75879700F8521C /* InputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputVC.m; sourceTree = "<group>"; };
+		49EA6F221D75879700F8521C /* InputVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -41,6 +50,9 @@
 			children = (
 				492F8A671D7537CD0067211E /* HHXibHelper.h */,
 				492F8A681D7537CD0067211E /* HHXibHelper.m */,
+				49EA6F201D75879700F8521C /* InputVC.h */,
+				49EA6F211D75879700F8521C /* InputVC.m */,
+				49EA6F221D75879700F8521C /* InputVC.xib */,
 				492F8A6A1D7537CD0067211E /* Info.plist */,
 				492F8A641D7537CD0067211E /* Supporting Files */,
 			);
@@ -50,6 +62,8 @@
 		492F8A641D7537CD0067211E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4960B48B1D758C99001486ED /* simple_html_dom.php */,
+				4960B48C1D758C99001486ED /* XibHelper.php */,
 				492F8A651D7537CD0067211E /* HHXibHelper.xcscheme */,
 			);
 			name = "Supporting Files";
@@ -110,6 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EA6F241D75879700F8521C /* InputVC.xib in Resources */,
+				4960B48D1D758C99001486ED /* simple_html_dom.php in Resources */,
+				4960B48E1D758C99001486ED /* XibHelper.php in Resources */,
 				492F8A661D7537CD0067211E /* HHXibHelper.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EA6F231D75879700F8521C /* InputVC.m in Sources */,
 				492F8A691D7537CD0067211E /* HHXibHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +274,7 @@
 				492F8A6F1D7537CD0067211E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

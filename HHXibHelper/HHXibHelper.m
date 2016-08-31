@@ -7,6 +7,13 @@
 //
 
 #import "HHXibHelper.h"
+#import "InputVC.h"
+
+@interface HHXibHelper()
+
+@property (nonatomic, strong) InputVC *inputVC;
+
+@end
 
 static HHXibHelper *sharedPlugin;
 
@@ -61,29 +68,26 @@ static HHXibHelper *sharedPlugin;
 
 #pragma mark - Implementation
 
-- (BOOL)initialize
-{
-    // Create menu items, initialize UI, etc.
-    // Sample Menu Item:
-    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
-    if (menuItem) {
-        [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Do Action" action:@selector(doMenuAction) keyEquivalent:@""];
-        //[actionMenuItem setKeyEquivalentModifierMask:NSAlphaShiftKeyMask | NSControlKeyMask];
-        [actionMenuItem setTarget:self];
-        [[menuItem submenu] addItem:actionMenuItem];
-        return YES;
-    } else {
-        return NO;
-    }
+- (BOOL)initialize {
+    
+    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Window"];
+    if(!menuItem) return NO;
+    
+    NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"HHXibHelper" action:@selector(doMenuAction) keyEquivalent:@""];
+    [actionMenuItem setTarget:self];
+    [[menuItem submenu] addItem:actionMenuItem];
+    return YES;
 }
 
-// Sample Action, for menu item:
-- (void)doMenuAction
-{
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:@"Hello, World"];
-    [alert runModal];
+- (void)doMenuAction {
+    
+    
+    _inputVC = [[InputVC alloc] initWithWindowNibName:@"InputVC"];
+    _inputVC.bundle = self.bundle;
+    [_inputVC showWindow:_inputVC];
+
+    
 }
+
 
 @end
