@@ -11,6 +11,7 @@
 3. 将.m或.xib文件拖入filePath文本框内，获取文件路径；
 4. 单击`走你～`，即可生成property属性并自动完成连线操作；
 
+(https://coding.net/u/herui/p/HHXibHelper/git/blob/master/Untitled-1.gif)
 
 ####Verson
 v1.0
