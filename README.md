@@ -1,11 +1,7 @@
-###HHXibHelper - Xcode Pulg In 
----
-
-####What?
+What?
 一款Xib辅助工具，可以在对应.m文件中批量生成property属性且自动完成连线操作。
 
-
-####How?
+How?
 1. .xib文件：界面控件布局完成后，将需要生成property的控件`重命名`，作为property `name`；
 2. Xcode菜单栏找到 `Windwo -> HHXibHelper` 单击，调出HHXibHelper；
 3. 将.m或.xib文件拖入filePath文本框内，获取文件路径；
@@ -13,11 +9,12 @@
 
 ![](https://github.com/xiaoxm/HHXibHelper/blob/master/Untitled-1.gif)
 
-####Verson
+Verson
 v1.0
 
-####实现原理篇
 
+
+实现原理篇
 .xib文件右键 Open As -> Source Code 打开源代码观察，摘录部分代码如下：
 
 
@@ -57,17 +54,17 @@ v1.0
 
 ```
 
-######在无数次的拖拽与观察中做出如下假设：
+在无数次的拖拽与观察中做出如下假设：
 * `<subviews>`标签下，每一个`<imageView>`、`<label>`标签对应着一个子控件。如果有过重命名操作，会生成一个userLabel属性；
 * `<connections>`标签下，每一个`<outlet>`标签对应一条连线；
 * `<outlet>`的property属性对应.m文件连线property name；
 * `<outlet>`的destination属性对应连线子控件的id；
 
-######这样一来Xcode的拖线操作就可以这么理解：
+这样一来Xcode的拖线操作就可以这么理解：
 * 在.h或者.m文件中生成了一条IBOutlet property属性；
 * 在.xib文件中的`<connections>`标签下生成了一条outlet记录;
 
-######于是乎，就有了HHXibHelper，它做如下操作：
+于是乎，就有了HHXibHelper，它做如下操作：
 * 获取文件路径；
 * 打开.xib文件，找出存在userLabel属性的控件，然后生成outlet记录;
 * 打开.m文件，生成对应IBOutlet property属性；
